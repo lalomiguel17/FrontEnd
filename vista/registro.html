@@ -14,16 +14,8 @@
     <script src="../js/registro.js"></script>
 </head>
 <body>
-    <form method="post">
-        <label>
-          <p class="label-txt">Tu id</p>
-          <input type="text" class="input" name="id">
-          <div class="line-box">
-            <div class="line"></div>
-          </div>
-        </label>
-        
-        
+    <form action="../funciones/registro.php" method="post">
+       
         
         <label>
           <p class="label-txt">Tu nombre completo</p>
@@ -56,17 +48,10 @@
         <div class="form-group" style="text-align:center;font-weight:bold">
            Si ya te registraste <a target="_blank" href="login.html">Inicia sesion</a>
              en este enlace </div>
+        <button type="submit" value="registros">Registarse</button>
+    </form>
 
-
-
-        <button type="submit" name="registro">Registarse</button>
-      </form>
-
-      <?php
-  
-      include(registro.php)
-      
-      ?>
+   
       
 
 </body>
