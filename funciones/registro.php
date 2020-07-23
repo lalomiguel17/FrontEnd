@@ -4,7 +4,7 @@ $nombre=$_POST["nombre"];
 $email=$_POST["email"];
 $password=$_POST["password"];
 
-$insertar ="INSERT INTO Covid(Nombre,Correo,Clave)VALUES($nombre','$email','$password')";
+$insertar ="INSERT INTO Covid(Nombre,Correo,Clave)VALUES('$nombre','$email','$password')";
 $resultado =mysqli_query($conexion,$insertar);
 
 if(!$resultado){
