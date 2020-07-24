@@ -7,10 +7,64 @@
 <title>formulario</title>
 <link href="../css/sintomas.css" rel="stylesheet" type="text/css">
 <script src= "validacion.js"> </script>
+
+
+
+<!-- site css -->
+<link rel="stylesheet" href="../css/style.css" />
+<!-- responsive css -->
+<link rel="stylesheet" href="../css/responsive.css" />
+<!-- colors css -->
+<link rel="stylesheet" href="../css/colors.css" />
+<!-- wow animation css -->
+<link rel="stylesheet" href="../css/animate.css" />
+
+
+
 </head>
 
 
 <body>
+
+    <header class="header header_style1">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-9 col-lg-10">
+                 <div class="main_menu float-right">
+                    <div class="menu">
+                       <ul class="clearfix">
+                          <li class="active"><a href="index.html">Home</a></li>
+                          <li class="active"><a href="diagnostico.html">Diagnostico</a></li>
+                          <li class="active"><a href="Formulario.html">Formulario</a></li>
+                          <li class="active"><a href="preguntas.html">Preguntas</a></li>                          
+                          <li class="active"><a href="preguntas.html">Sintomas</a></li>   
+                          <li class="active"><a href="index.html">Inicio de sesion</a></li>                          
+                          <li class="active"><a href="registro.html">Registro</a></li>     
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+            
+              
+           </div>
+        </div>
+     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1>Sintomas : </h1>
 
 <form   method="post" action ="registrar.php" class="form-register" onsubmit="return validar();">
@@ -21,6 +75,7 @@
       
 <p>Tienes temperatura +38 °C ? </p>
 <center> 
+    <br><br>
 <input type="radio" name="r" values="r">SI <br/><br/>
 <input type="radio" name="r" values="r">NO <br/>
 </center> 
