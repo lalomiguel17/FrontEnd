@@ -15,8 +15,8 @@ $json1->JSON=json_encode($json);
 //apicall($json1);
 
 
-//var_dump(apicall($json1));
-header('Location:../vista/login.html');
+var_dump(apicall($json1));
+//header('Location:../vista/login.html');
 
 function apicall($query){
     $ch = curl_init();        
