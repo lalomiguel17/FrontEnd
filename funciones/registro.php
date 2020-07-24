@@ -1,10 +1,10 @@
 <?php
 //include 'cn.php';
 $json=new stdClass();
-$json->idUsuario=$_POST["id"];
-$json->Nombre=$_POST["nombre"];
+$json->Nombre_Registro=$_POST["nombre"];
 $json->Correo=$_POST["email"];
 $json->Clave=$_POST["password"];
+$json->idPaciente=$_POST["id"];
 //var_dump($json);
 
 $json1=new stdClass();
