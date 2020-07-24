@@ -49,20 +49,20 @@
       <br>
       <br>
       <div class="form">
-         <form   method="post" action ="registrar.php"class="form-register" onsubmit="return validar();">
+         <form   method="post" action ="../funciones/registropaciente.php" class="form-register" onsubmit="return validar();">
             <h2 class ="form__titulo">Datos Paciente</h2>
             <div class ="contenedor-inputs">
 
                <p>Nombre: </p> 
-               <input type="text" id="nombre" size"10" placeholder="Nombre" class="input-100" required/> 
+               <input type="text" id="nombre" size"10" placeholder="Nombre" class="input-100"  name="nombre" required/> 
                <p>Edad: </p> 
-               <input type="text" id="control"  maxlength="8" size"3"  placeholder="Edad" class="input-100" required/>
+               <input type="text" id="control"  maxlength="8" size"3"  placeholder="Edad" class="input-100" name="edad" required/>
          
                <p>Sexo: </p> <p><p> 
                               <input type="radio" name="sexo" values="H">Hombre 
                               <input type="radio" name="sexo" values="M">Mujer
                <p>Domicilio: </p> 
-               <input type="text" id="domicilio" size"10" placeholder="Domicilio" class="input-100" required/>
+               <input type="text" id="domicilio" name="domicilio" size"10" placeholder="Domicilio" class="input-100" required/>
                <p><p>
                   <br>
                   <input type="submit" value="Enviar" id="enviar"/><br><br>
@@ -70,6 +70,7 @@
             </div>
             
          </form>
+
       </div>       
    </body>
 </html>
