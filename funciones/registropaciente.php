@@ -1,22 +1,22 @@
 <?php
 //include 'cn.php';
 $json=new stdClass();
-$json->Nombre_Registro=$_POST["nombre"];
-$json->Correo=$_POST["email"];
-$json->Clave=$_POST["password"];
-$json->idPaciente=$_POST["id"];
+$json->Nombre_Paciente=$_POST["nombre"];
+$json->Edad=$_POST["edad"];
+$json->Sexo=$_POST["sexo"];
+$json->Direccion=$_POST["direccion"];
 //var_dump($json);
 
 $json1=new stdClass();
-$json1->URL="http://192.168.99.100/proyectofinal/public/api/registro";
+$json1->URL="http://192.168.99.100/proyectofinal/public/api/paciente";
 $json1->VERBO="POST";
 $json1->JSON=json_encode($json);
 
 //apicall($json1);
 
 
-var_dump(apicall($json1));
-//header('Location:../vista/login.html');
+//var_dump(apicall($json1));
+header('Location:../vista/registro.html');
 
 function apicall($query){
     $ch = curl_init();        
