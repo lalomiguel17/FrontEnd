@@ -14,7 +14,7 @@
       <meta name="author" content="">
       <!-- site icons -->
 
-
+      <link rel="stylesheet" href="../css/p.css" />
       <link rel="icon" href="images/covid.jpg" type="image/jpg" />
       <!-- bootstrap css -->
       <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -43,16 +43,16 @@
                   <div class="main_menu float-right">
                      <div class="menu">
                         <ul class="clearfix">
-                           <li class="active"><a href="index.html">Home</a></li>
-                           <li class="active"><a href="Formulario.html">Registro de paciente</a></li>
-                           <li class="active"><a href="login.html">Inicio de sesion</a></li>                          
+                           <li class="active"><a href="index.html">Inicio</a></li>
+                           
+                           <li class="active"><a href="login.html">Cerrar Sesion</a></li>                          
 
                         </ul>
                      </div>
                   </div>
                </div>
                <div class="col-md-3 col-lg-2">
-                  <div class="right_bt"><a class="bt_main" href="registro.html">Registro</a> </div>
+                  <div class="right_bt"><a class="bt_main" href="Formulario.html">Hacer Test</a> </div>
                </div>
                
             </div>
@@ -64,11 +64,11 @@
                <div class="col-md-6">
                   <div class="full">
                      <div class="slide_cont">
-                        <h2 style="color:black;">Covid-19</h2>
-                        <p style="color:black;"> La COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto
-                            más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos
-                             antes de que estallara el brote en Wuhan (China) en diciembre de 2019. 
-                             Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo.</p>
+                        <h2 class="T" style="color:black;">Covid-19</h2>
+                        <p class="p" style="color:black;">Es la enfermedad infecciosa causada por el coronavirus que se ha descubierto
+                              más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos
+                              antes de que estallara el brote en Wuhan (China) en diciembre de 2019. 
+                              Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo.</p>
                         
                      </div>
                   </div>
@@ -88,18 +88,19 @@
                <!-- featured cont -->
                <div class="col-md-6 cont_theme_blog">
                   <div class="full">
-                     <h3>¿Cuáles son los síntomas de la COVID-19?</h3>
-                     <p>Los síntomas más habituales de la COVID-19 son la fiebre, la tos seca y 
+                     <h3 class="p">¿Cuáles son los síntomas de la COVID-19?</h3>
+                     <p class="p" style="color:black;">Los síntomas más habituales de la COVID-19 son la fiebre, la tos seca y 
                         el cansancio. Otros síntomas menos frecuentes que afectan a algunos pacientes 
                         son los dolores y molestias, la congestión nasal, el dolor de cabeza,
                          la conjuntivitis, el dolor de garganta, la diarrea, la pérdida del gusto 
                          o el olfato y las erupciones cutáneas o cambios de color en los dedos de las
                           manos o los pies. Estos síntomas suelen ser leves y comienzan gradualmente. 
-                          Algunas de las personas infectadas solo presentan síntomas levísimos.
-                        La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad 
+                          Algunas de las personas infectadas solo presentan síntomas levísimos.</p>
+                          <p class="p" style="color:black;">La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad 
                         sin necesidad de tratamiento hospitalario. Alrededor de 1 de cada 5 personas que
                          contraen la COVID‑19 acaba presentando un cuadro grave y experimenta 
-                         dificultades para respirar. Las personas mayores y las que padecen afecciones 
+                         dificultades para respirar. </p>
+                         <p class="p" style="color:black;">Las personas mayores y las que padecen afecciones 
                          médicas previas como hipertensión arterial, problemas cardiacos o pulmonares,
                           diabetes o cáncer tienen más probabilidades de presentar cuadros graves. 
                           Sin embargo, cualquier persona puede contraer la COVID‑19 y caer gravemente 
@@ -114,27 +115,29 @@
                <!-- end featured cont -->
                <!-- featured image -->
                <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+                  <br>
                   <div class="full">
-                     <div class="center"><img src="https://www.paho.org/sites/default/files/styles/flexslider_full/public/hero/2020-03/covid-19-1190x574-2-full.jpg?h=fdc0eb87&itok=CerQCpzv" alt="#" width="460" height="460" /></div>
+                     <div class="center"><img class="img" src="../img/hands-with-latex-gloves-holding-a-globe-4167580.jpg" alt="#" width="460" height="650" /></div>
                   </div>
                </div>
+               
                <!-- end featured image -->
             </div>
             <div class="row margin_bottom_30">
                <!-- featured image -->
                <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
                   <div class="full">
-                     <div class="center"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUQEBISFRUVFRUVFRIVEA8QEA8VFRUWFhUVFRUYHSggGBolGxUVIjEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQFy0dHSUrLS0tLS0tLS0tKy0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0rLS0tNy0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUGBwj/xABDEAACAQIDBAcGAgcHBAMAAAAAAQIDEQQSIQUxQVEGImFxkaGxEzKBwdHwQlIUI2JyguHxBxUzY5LC0oOTorIWF1P/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQMCBAX/xAAmEQACAgIBBAEEAwAAAAAAAAAAAQIRAyExBBITQSIUUWFxMkJS/9oADAMBAAIRAxEAPwDidtbSesI9yS4mTld7b2/VktKm1erU9562/KuC9AwdPNaT4/0Kdxz9pDtGpaKiuS73fj6ENKnZfC3i0n6j63WqN8Fdv4faGyluXG6+Fk/nJE3Ip2j1opPlFL5vyXmVo+53u3z++4mqaQa+Pi2kvBEc46QjzV/F/Rg3sFHQRfVS56/Tyt4k2EleWm6O98L8SvKe+Xh6L6ki6qUFw97te+33zXIakJxRdqVMycYLfZN75SfZyWn3uGzoKKvp2doyldaLfbV/lRNGzeu99v3oEpJoIxohjiJcLL+G46Od/jt8MpYlgX7yV1xHU0lvTX/UXzIWX7RlOhO6u/mdV0X2jUoSV1Np6NNaHOKquEpfByfyLeHxFt0qr+M/+JuMqJyhZ6vTaqRzw3eZfwMWjzrZO3JU9yrO/OMpLxcT0HYe0IVkraS5ap+DOmMkzmnBo6DDyH1WR00LUNGEyhXWo2KJKy1EpoQwSBonjFCuCGOyrYCw6aE9mgArMQsOmhHSQAV2xrk+bLDpDHSACByfNjXUfMndIY6QUFkLqPmRym+ZO6QyVIVBZXc2NdVkzokcqQ6CyP20gF9kAUKzwrH1dHfc3b9629Ls4X4u5dy5Yx5t7uVkUKlPNOEexN/FtWNHG+/Ffsyfk7eTOaTpHXFWzLj7spcW0vhdX8vQfSjezfOV/GP0Fo+7Fbt/i46eoqlaEezN5tL0uTs3RA3dSvyj53YmKXXf7KUfJL5kkIXcv4PR/UZVV5t85/fyC9jrQxx1jH+J+kfKw+k9c1u5dsty+C9BEryl8Iryj/uLtOko3k90de+T+isgchURVOoucn68+4fgqd3dv5tvcU23KWZ729P5diXqaezIapLh63Mt6NRWzsdl7PvR1W937fvTzI8RsL8vojf2TS6q5fW/yNGVFMmzqSR55X2dUi9LPXjf0Ks8ROD68Id+Ry+R6HWwafAzsVsxS0sFsHBM5Sji5vWMacl2RipL4NHS9HdsunNZoy7s2nhdGHtbY0qSdWmnpq7b7ce8n2FtKMlrLXtWnd2FYSZy5ILg9j2djI1YprR2vlekrdz1Lc4nNbBxs/ZqTSnCDs1f9ZS7UnvizqouMo5ou6Z2KVnC40ZtZD8LRzDsTEt7MjoEnocVbokWBQn6AjSjEdlJ9zLeOJl/3eg/u9GplDKHew8cTL/u5DXs01souUO9h44mM9mjHs5m3lEyB3sPFEwns5kctns6BwGumHkYvFE557PkRywEjpPZjXSH5GHhRy88JIhlhpHVSoIY8KuQ1kMvCcr+jyA6j9EXIB+Qz4j5epQvNS7L+v1J8RP9f8GvNxKeHr6r+FPx/oTYqW+a7/8AyzI5ZM6oFObtp+Vy9H/IfVfVa/LLyu/oGOXXuuOvwkvkyO/vRfFeejMmhaD68m+Wvwa+jH5V7a37UvT+SIYKzvzVvju9R8KnWT7V6CGLg1eb7HfzdvOxYxj6qiuL8lx+LI8KrXfxfdb+fkOqO7v2ZV8wGRRp/l3vdyiuff8AQ2di4bVLxZQoQv8AfodFsela3YYbKRidjszRW7F/I0zJwCasasdwmVSGtCeyRIoggGEcEpqzW/Qwujf9nlR4mo5Sy0Yyetk20/dUU+x7+B1OClqdfsqSdPuZ0YqOPPZWw2xKdOKULqS3Tesu5849g3BUMknHLlu27J3ipb3bse9GvYjqQuXs5nEy8ZEl2UwxkRNl72afBmP8jYiKJEUkdAAAAAAAAAAAAAggoCAQSwoMAG2CwoAAlgABiPkSnpFX/NHxtf5D8NXzafeiv8vMrVk20vt9pYwlHLq97V0uCRhoSBK67pNL46/UJU9deXnuRJbd68+b8b+BPJPWeWVnudnl8eOtjOiiTZWVPRfe+zYSp3f3ysWI03x4+Wn8y5h8Nbfx9FqYciqxsyoxa+/D1J3Cyj9/e4fVdy5hMPeyfYhNgo7J9lYJy1tp8zrNmbNsrvd/7P6DdkYFZU7X9DcpxJnTGND8PRS7yyyCLFzgaomjIVMhSB14xV7jFRdo6M6jY1a1uTVvijiaW1Kd7Zjodl4lNdV3+RXG6Zz5o2jrxskMwtXNBS5okZ0HGyji46FfZ3vMuYpaFLA++b9Ev7G1EUbEcTOgAAAAAAAAAAAAGIKxBAIDAAAaKAAACCgMD5KVKyvxfz3jorrPta8PtE09Y34pLz3eQ2VK9mtd3oYYonW9FNgU1RWMxUc29UabXVtF2zyXHVNJbuPI3q1WTV5JKPKyenaS7egqcaFKPuxVOKXNRhp6FDHuUlZbuOttDlnL5UerhxqMF+Rseicq8VWoU0k9crus1nZuK5EdPojiZZkqTTSt1rRTv2t9h6fRoWoU4LTLThFpbk1FJowsfQqRTVKVne9nub+R0eFJWcfncn6PPZdDMXTu5Ubu/CdKWnYlK/kQRoSjUVPK4tb1JOMl33PUNhYmM04zSU+KfMm2nhqbXXjGSW5SV7dz3r4C8aa0wWRqVNHLbOp2gu7xLjLcMJSt+rll/Znu7lL6kVfDyh70Wu3g+57mRcWjpjNMgYOVhUiDFRklxV+/yEaCpd/isUcRWox/xa0Ir9qav4FetQc3ZyduV7X7ybGYOHs040o3V7tQTTzRcb9m++nI3FJksjaqlYyWEoVGpUajafflfcdR0ewmTdJv5HMbIwmWKTfmei9D8PFQdSTV72V+VlqjWO5OieVKMbNLYLm4vMrRT6t98ub7jUYoM6TjK2IWhnYb3zTrrQy4aVDa4JS5NuA4ZT3DyZZAAAAwAAAAAAABBBRAABAAQCCiAACgADA+WKcX7r5WfcnZPxXmWsBh9Ltb93wv9BkodbM+1J80mvoauz3fRcGZloIbOr2zPO8LPhKK/wBWTd4pmFGg69dU29HOMbcOs0vmb1fCOeFSh79J5o917+t/Ep9HacK2MpScXGUZqclwvTTlrz905Gvn+z1oSrFf2R2PRvbEa1XF0U9adabV+MW8unc4+Y/aMXw4nO7BwHssdTqwlpUlPOvzZ0362Ox2lTOqLbicE4qM9HJYhSjapHSUXd9q5M2sPiFWgpdhUnDVlTZkvZ1JU+G9dzM3Rtqy/wCx3xK9HFVKeiaa4xdpRfemXJy1uUcXpJ+PiYlraNw3pljAY2n+kU24yhJyt1etTk5JxWj1jv5s6WthYTlepCMrbrpO27h97jhK74x0ad0+TR3OHqKpGFVfjina+7R3Xwb8iuBpppnN1cXFpoVYCj/+VL/tw+gS2dStb2NP/TFfImjIdcvS+xyXL7lOls+nD3KdOPdGK+RYg+3wHOKDIPSFt8mxQneKY8p7Pno4/EuGGVXBFWWhk1NJmvUMnEe8aiTma9F6EpXwz0LBhlYvQAACNAAAAAAAwARiCsaAgEFEAAAAEMUAAYHy9ZuWu61/vwNzZFFt3RDRwLzWtpodHsfCZHlf3wJSdlMcaNrDaRTW/wBRuzMHGNWrXj+GjUduKbWVer1JpaRsFBZaGImt7VOCf70rv0FXB0dzSf5MihUcZQmnrCSl4O56DjrSSa3NX8TiFs5Si3ma03JXR2WG62Hp/uR8kPEmrM9RJNpoyJUlcp1cNeop8Vp3o0sW8t7GbCo3qDpBFNqywyDGUsyUlw0fyHzYtIWmNa2ZdWm1o0b/AEQxmaEqD3x68f3W9V8Hr/EVa1BSVn8HyKuwoypYyKa95Sjfg0036pDxrtkYzPvxs7GUdRrY2b1+Amc66POUiS45VCPTtHRiuYhlnC1LSTNOEk1dGM1lTkleybte17K5B0a2pnWSXevoYk1dFYJtNm9UMnGLU15mVjlqaiYmXsG9C2ijgXoXUYZuPAoAII0KAAAAIKIACMQViAAgAAAIAAACgIKAHjmEwN3u+ps0cMoxu95YwmGSdxMW9STOiJXqS0G152wf79fyjH6sjrT0Dal1h8PFJ6qpN2T/ABS08kJeytcfsjpYiy+B1GxambDR7HJeZwlSq4uz9Gdb0Pr5qM4/ln6pDxu3RjMqjZLjIFKNKxq4qGpn1RyQoS0V3LWxJSYxxEWhkoWHImo1HF3XjxKqZLFmkTa9GpQxl3aXHiT5dbmVBXNOD3MtCTemcmWCW0SXJaULkF7k9KrFcX4X9ChGzL6TYlU6Sir3qSs32LV/IxtnYvLLRmz0loxlGNRSuk8uV6PXijn1FHJmb7j0OnjF4z0TAYtVIJ8eJWx6MPYeMyO3A3ca7q6LY5WjlzR7XRLs96GijL2a9DTQ5ChwKAAI2AAAgAAAAEEFEYAIACNgIGIDYlwAUUZcBhZxFOSRUxshHWK2Lqog2dUVsubIjCWaTSclZJPW3bbmbDSlJX/JG3LjfzOJniXB5otr74lvZ/SSKaVV5WtM34ZRbv8ABp3NQmuGLJCXKOix2x41UM6PbIlh5z1vCSXwa/qauDmnFOLui02VUFdkHkddvoz8VEz6sTVxW4zpQuzEjcGVpQIZouVIEEok2joTtDEPg9SByHqQJiaLcGaFDWJmUpF2jUkotxV3y5lcb2c2VfEtKBZpQSTb5FKttGMIZ5pxWi56vlYxdobd9p+rhdR4vc59nYik5qPJDHjlPgl2rXVWXVfVW7t5synCS1ZPF6Da1TQ5ZfLbPQh8dIlwVXrI6ujVzU+443DT1Ok2dW0sbwvZHqlas1tmyNaJi7PlqbMGXkc2N6HgIBkoAAIADhAEEACMUawEAjAa2MAEC4lwEKA24AB5rj8HVpayWaP543du9b0Z1XEJredy5mBtXYlOo3KH6uXNLqvvj9LGZ4P8lsfUL+xzFaroZeKszR2jhKtH/EjpwmtYP48PiZM5XORpp0zui01aOl6D9IHSqfo9V9SXuN/gf5e5noKrXPEp3vdHcbC6VRkowqvLLRXe6TR0YsmqZy58W+5HYVdSCSsKqya0GtlGRiMmipUiaOXQz6+8xJFoMpyQXEqMjTJFi3QqGrhpK13uMOEzRwdW6tzKweznyRtFPpLiFLJTi07dZ257l8zHjCyDG1WqslLn5cB0aisSyPudlcaUYpImpVrq/iFSWhBTlrbmSVXoZTHWx+Heps7Ora2MCjLU0KNWzNRdMWRWjq8FLrG5SZ450w6U4nCuMqKjlfFps57/AO2toWsvYrt9nJ/7jsq/Z5qbj6PogLngNH+1jHtqN6Lb/wAt/wDI6PBf2lYlf4kKUu5uP1H4mw869o9aA4bov0/ji8T+iunllkcr5k1o0reZ3FzDTWmUjJSVocA0BGhRrYrGNgANjWwbGMBCtiNiCMYgzAMuIArObVa+qIasjyDot00q4a1Os3OluWt6lNfsviuzwPUsDtGnWpqpTkpRluaen9ewrZiiSeujV096eqZz21ejcZXlQahL8j/w33fl9DfmyO5mUFLk3DJKDtM89xNCdOWSpFxfJ8e58UQyjyPRMRRhUjlqRUl28O58Dm9p9HpRvKi3Jfl/GvqcmTA1xs7sfUxlqWmS9F+kWX9TXlp+CT4fss7XDVlLieQtatP01RubE2vUotLWUeV7tdwseT0wyYvcT1GJj7SrKL3lGvt1uNoK3azntpYiUvebOzwtrZw/UqL1s1qu0qa3yXiUq23aSfvHLYt6lCctRfTxD6yT4R2f/wAipLj5MfR6XUo8/A4bPoNUg8UUPzyZ2G1OkVGpPNFSTtroV4bch2nLqYZxPFFhHLJezs6G16ba6yLc8bF7mvE4HMCqvg2TfTr0yi6l+0d77e2t14iVNr04+9JeJwjrvi34sY7PXUF09exvqrXBv9J9rU69F007vg+Rx9LZ8VvbfoW5aDcxZKtHPKVjoUox3ImzakOYHI0Y0bv9nGIybZpa+9GcfK/yPopM+ZOiVXLtbCy/bt4xkj6XhLQxPk3AluAxMW5goKxrBsa2ACMaDkMchiHjZMY5jJTAzY5sCFyAYrPk/MavR7pBVwlTNDWD9+m31Z9q5S7QALNnrmytpwxFGNanfLLmrNNaNPuZYcgAoSEzDlMAGKzP2psenX1ayz4TS3/vLic7PCujO1T8PBPRoQCGWC5OnBll/G9Gq6uZt8ylip6gB3Lg8x8mHjJamXUmAGJGojXMFMAJsshYyElPUAMmwzDfaCgNGWE5aCKetgABEdSepHnABDvQ5TFcwAYrJNlVLY7Cy/zoecrH0/Rn1V3ABiRSJJmFzABk2NchkpAAAMciOUwAZkjcxjmKAxDM4AACP//Z" alt="#" width="460" height="460"/></div>
+                     <div class="center"><img class="img" src="../img/man-and-woman-drinking-milkshake-3951878.jpg" alt="#" width="500" height="600"/></div>
                   </div>
                </div>
                <!-- end featured image -->
                <!-- featured cont -->
                <div class="col-md-6 cont_theme_blog">
                   <div class="full">
-                     <h3>¿Cómo podemos protegernos a nosotros mismos y a los demás si no sabemos quién está infectado?</h3>
-                     <p>Practicar la higiene respiratoria y de las manos es importante en TODO momento y la mejor 
+                     <h3 class="p">¿Cómo podemos protegernos a nosotros mismos y a los demás si no sabemos quién está infectado?</h3>
+                     <p class="p" style="color:black;">la higiene respiratoria y de las manos es importante en TODO momento y la mejor 
                         forma de protegerse a sí mismo y a los demás. 
-                        <br><br>Cuando sea posible, mantenga al menos un metro de distancia entre 
+                        <br>Cuando sea posible, mantenga al menos un metro de distancia entre 
                         usted y los demás. Esto es especialmente importante si está al lado de alguien
                          que esté tosiendo o estornudando. Dado que es posible que algunas personas 
                          infectadas aún no presenten síntomas o que sus síntomas sean leves, conviene 
@@ -145,7 +148,44 @@
                <!-- end featured cont -->
            
          <!-- footer bottom -->
-         
+      
+      </footer>
+      <footer>
+         <div class="footer">
+               <div class="colum1">
+                     <h1>Mas informacion de la compañia</h1>
+                     <p>Esta compañia se dedida a probar estos test en distintas
+                        tematicas de donde se obtienen datos estadisticos para
+                        futuras investigaciones.
+                     </p>
+               </div>
+               <div class="colum2">
+                  <h1>Redes sociales</h1>
+                        <div class="row">
+                              <img src="">
+                              <label>Siguenos en Facebook</label>
+                        </div>
+                        <div class="row">
+                              <img src="">
+                              <label>Siguenos en Twiter</label>
+                        </div>
+                        <div class="row">
+                              <img src="">
+                              <label>Siguenos en Instagram</label>
+                        </div>
+                        <div class="row">
+                              <img src="">
+                              <label>Siguenos en Pinterest</label>
+                        </div>
+               </div>
+               <div class="colum3">
+                     <h1>Informacion Contactos</h1>
+                        <div class="row2">
+                              <img src="">
+                              <label>New York, NY 10005, Estados Unidos</label>
+                        </div>
+               </div>
+         </div>
       </footer>
       <!-- end footer -->
       <!--=========== js section ===========-->

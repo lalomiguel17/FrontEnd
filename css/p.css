@@ -1,0 +1,16 @@
+.p{
+    line-height: 1.5; 
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.img{
+    margin-right: 3px;
+    border:2px outset black;
+}
+.T{
+    margin-right: 3px;
+    border:4px outset rgb(40, 130, 248);
+    text-align: center;
+    
+}
