@@ -10,11 +10,12 @@ $json1->URL="http://192.168.99.100/proyectofinal/public/api/login";
 $json1->VERBO="POST";
 $json1->JSON=json_encode($json);
 
-//apicall($json1);
+apicall($json1);
 
+//header('Location:../vista/index.html');
 
-//var_dump(apicall($json1));
-header('Location: ../vista/index.html');
+header('Location:../vista/.html');
+var_dump(apicall($json1));
 
 function apicall($query){
     $ch = curl_init();        
