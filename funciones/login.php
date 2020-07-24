@@ -12,9 +12,9 @@ $json1->JSON=json_encode($json);
 
 apicall($json1);
 
-//header('Location:../vista/index.html');
+header('Location:../vista/index.html');
 
-header('Location:../vista/sintomas.html');
+//header('Location:../vista/sintomas.html');
 var_dump(apicall($json1));
 
 function apicall($query){
