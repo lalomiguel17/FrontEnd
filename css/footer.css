@@ -1,0 +1,34 @@
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1300px
+    
+}
+
+.container-body{
+    display: flex;
+}
+
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size:20px;
+}
+.colum p{
+    font-size: 14px;
+    columns: #c7c7c7;
+    margin-top:20px;
+}
