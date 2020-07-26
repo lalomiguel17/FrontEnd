@@ -16,7 +16,7 @@ $json1->JSON=json_encode($json);
 
 
 //var_dump(apicall($json1));
-header('Location:../vista/registro.html');
+header('Location:../vista/preguntas.html');
 var_dump(apicall($json1));
 
 function apicall($query){
