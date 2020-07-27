@@ -1,21 +1,21 @@
 <?php
 //include 'cn.php';
 $json=new stdClass();
-$json->Nombre_Tratamiento=$_POST["Nombre_Tratamiento"];
-$json->R.porcentaje=$_POST["R.porcentaje"];
-$json->sum(R.porcentaje)=$_POST["sum(R.porcentaje)"];
+$json->Nombre_Tratamiento=$_GET["Nombre_Tratamiento"];
+//$json->R.porcentaje=$_POST["R.porcentaje"];
+//$json->sum(R.porcentaje)=$_POST["sum(R.porcentaje)"];
 //var_dump($json);
 
 $json1=new stdClass();
-$json1->URL="http://192.168.99.100/proyectofinal/public/api/final";
-$json1->VERBO="POST";
+$json1->URL="http://192.168.99.100/proyectofinal/public/api/finalS";
+$json1->VERBO="GET";
 $json1->JSON=json_encode($json);
 
 apicall($json1);
 
 //header('Location:../vista/Formulario.html');
 
-//header('Location:../vista/sintomas.html');
+header('Location:../vista/vista_resultados.html');
 var_dump(apicall($json1));
 
 function apicall($query){
