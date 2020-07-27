@@ -17,7 +17,7 @@ $json->descripcion_Respuesta=$_POST["ENFERMEDAD"];
 //var_dump($json);
 
 $json1=new stdClass();
-$json1->URL="http://192.168.99.100/proyectofinal/public/api/preguntas";
+$json1->URL="http://192.168.99.100/proyectofinal/public/api/respuestas";
 $json1->VERBO="POST";
 $json1->JSON=json_encode($json);
 
