@@ -8,8 +8,8 @@ $json->descripcion_Respuesta=$_POST["j"];
 $json->descripcion_Respuesta=$_POST["Medicamento"];
 $json->descripcion_Respuesta=$_POST["dias"];
 $json->descripcion_Respuesta=$_POST["Sintomas"];
-$json->descripcion_Respuesta=$_POST["Ñ"];
-$json->descripcion_Respuesta=$_POST["ENFERMEDAD"];
+$json->descripcion_Respuesta=$_POST["z"];
+$json->descripcion_Respuesta=$_POST["Enfermedad"];
 
 
 
