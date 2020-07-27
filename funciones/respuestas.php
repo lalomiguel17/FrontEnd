@@ -1,7 +1,7 @@
 <?php
 //include 'cn.php';
 $json=new stdClass();
-$json->idRespuesta=$_POST["id"];
+
 $json->descripcion_Respuesta=$_POST["i"];
 $json->descripcion_Respuesta=$_POST["q"];
 $json->descripcion_Respuesta=$_POST["j"];
