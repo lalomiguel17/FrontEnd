@@ -1,7 +1,6 @@
 <?php
 //include 'cn.php';pagina sintomas
 $json=new stdClass();
-$json->idRespuesta=$_POST["id"];
 $json->descripcion_Respuesta=$_POST["r"];
 $json->descripcion_Respuesta=$_POST["a"];
 $json->descripcion_Respuesta=$_POST["b"];
