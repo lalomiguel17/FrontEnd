@@ -1,8 +1,21 @@
 <?php
-//include 'cn.php';
+//include 'cn.php';pagina sintomas
 $json=new stdClass();
-//$json->Correo=$_POST["email"];
-$json->descripcion_Pregunta=$_POST["r"];
+$json->idRespuesta=$_POST["id"];
+$json->descripcion_Respuesta=$_POST["r"];
+$json->descripcion_Respuesta=$_POST["a"];
+$json->descripcion_Respuesta=$_POST["b"];
+$json->descripcion_Respuesta=$_POST["c"];
+$json->descripcion_Respuesta=$_POST["z"];
+$json->descripcion_Respuesta=$_POST["e"];
+$json->descripcion_Respuesta=$_POST["f"];
+$json->descripcion_Respuesta=$_POST["g"];
+$json->descripcion_Respuesta=$_POST["h"];
+$json->descripcion_Respuesta=$_POST["m"];
+$json->descripcion_Respuesta=$_POST["n"];
+$json->descripcion_Respuesta=$_POST["o"];
+
+
 //var_dump($json);
 
 $json1=new stdClass();
@@ -12,9 +25,9 @@ $json1->JSON=json_encode($json);
 
 apicall($json1);
 
-//header('Location:../vista/index.html');
+header('Location:../vista/final.html');
 
-header('Location:../vista/diagnostico.html');
+//header('Location:../vista/sintomas.html');
 var_dump(apicall($json1));
 
 function apicall($query){
