@@ -2,14 +2,25 @@
 //include 'cn.php';
 $json=new stdClass();
 
-$json->descripcion_Respuesta=$_POST["i"];
-$json->descripcion_Respuesta=$_POST["q"];
-$json->descripcion_Respuesta=$_POST["j"];
-$json->descripcion_Respuesta=$_POST["Medicamento"];
-$json->descripcion_Respuesta=$_POST["dias"];
-$json->descripcion_Respuesta=$_POST["Sintomas"];
-$json->descripcion_Respuesta=$_POST["z"];
-$json->descripcion_Respuesta=$_POST["Enfermedad"];
+$json->descripcion_Respuesta=$_POST["n"];
+$json->descripcion_Respuesta=$_POST["w"];
+$json->descripcion_Respuesta=$_POST["p"];
+$json->descripcion_Respuesta=$_POST["0"];
+$json->descripcion_Respuesta=$_POST["1"];
+$json->descripcion_Respuesta=$_POST["2"];
+$json->descripcion_Respuesta=$_POST["3"];
+$json->descripcion_Respuesta=$_POST["4"];
+$json->descripcion_Respuesta=$_POST["5"];
+$json->descripcion_Respuesta=$_POST["6"];
+$json->descripcion_Respuesta=$_POST["7"];
+$json->descripcion_Respuesta=$_POST["8"];
+$json->descripcion_Respuesta=$_POST["9"];
+$json->descripcion_Respuesta=$_POST["10"];
+$json->descripcion_Respuesta=$_POST["l"];
+$json->descripcion_Respuesta=$_POST["11"];
+$json->descripcion_Respuesta=$_POST["12"];
+$json->descripcion_Respuesta=$_POST["13"];
+
 
 
 
