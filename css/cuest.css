@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    color: #ca323d;
+    color:  white;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ h1{
 }
 
 .contenedor-inputs{
-    padding: 10px 80px;
+    padding: 3px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
