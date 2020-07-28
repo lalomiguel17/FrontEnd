@@ -5,7 +5,7 @@ $json=new stdClass();
 var_dump($json);
 
 $json1=new stdClass();
-$json1->URL="http://192.168.99.100/proyectofinal/public/api/final";
+$json1->URL="http://192.168.99.100/proyectofinal/public/api/wea";
 $json1->VERBO="GET";
 $json1->JSON=json_encode($json);
 
