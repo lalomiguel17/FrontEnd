@@ -1,7 +1,7 @@
 <?php
 //include 'cn.php';
 $json=new stdClass();
-$json->Nombre_Paciente=$_POST["nombre"];
+$json->Nombre_Registro=$_POST["nombre"];
 $json->Edad=$_POST["edad"];
 $json->Sexo=$_POST["sexo"];
 $json->Direccion=$_POST["direccion"];
